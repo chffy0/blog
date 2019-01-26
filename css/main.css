@@ -1,0 +1,269 @@
+nav{
+	background-color: transparent;
+	height: 50px;
+}
+#banner{
+	/*background-color: rgba(0, 0, 0, 0.1);*/
+	height: 700px;
+}
+nav ul{
+	margin: 0;
+	list-style: none;
+	float: right;
+}
+header, footer{
+	background-color: rgba(0, 0, 0, 0.3);
+}
+nav ul li, nav .logo{
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 20px;
+}
+nav ul li a{
+	line-height: 50px;
+	text-decoration: none;
+	display: inline-block;
+	height: inherit;
+	color: #fff;
+}
+
+#banner h1{
+	margin: 0;
+}
+#inner{
+	width: 300px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 150px;
+}
+button{
+	color: #eee;
+	background-color: #333;
+	border-width: 0; 
+}
+#inner button{
+	padding: 15px 30px;
+	font-size: 20px;
+	letter-spacing: 4px;
+	border-radius: 6px;
+	background:#18a;
+}
+#inner .more{
+	margin-top: 280px;
+}
+.sub-heading{
+	line-height: 25px;
+	font-size: 18px;
+	margin: 30px 0;
+}
+.logo{
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-left: 20px;
+}
+.logo a{
+	text-decoration: none;
+	color: #fff;
+}
+.green-section{
+	text-align: center;
+	height: 500px;
+	background: rgba(8, 157, 176, 0.9);
+	color: #fff;
+	padding: 100px 0;
+}
+.green-section p{
+	margin-top:50px; 
+}
+h2{
+	margin-top: 0;
+}
+.green-section .wrapper{
+	width: 1080px;
+	margin:0 auto;
+}
+.hr{
+	width: 100%;
+	height: 2px;
+	margin: 20px auto;
+}
+#inner-hr1{
+	margin-top: 0;
+}
+.green-section .hr{
+	margin-top: 40px;
+	width: 60%;
+	background-color: #078494;
+}
+#inner .hr{
+	background-color: #fff;
+
+}
+.icon-group .icon{
+	display: inline-block;
+	width: 75px;
+	height: 75px;
+	background-color: rgba(8, 157, 176, 1);
+	transform: rotate(45deg);
+	margin: 0 30px;
+}
+.icon-group .icon img{
+	transform: rotate(-45deg);
+	position: absolute;
+	top: 15px;
+	right: 10px;
+}
+.icon-group{
+	margin-top: 200px;
+}
+.img-section{
+	width: 45%;
+	height: 550px;
+}
+.img-section img{
+	width: 100%;
+	height: inherit;
+}
+.text-section{
+	width: 50%;
+}
+.article-preview{
+	background-color: rgba(0, 0, 0, 0.5); 
+	font-size: 0;
+}
+.img-section, .text-section{
+	float: left;
+}
+.text-section h2{
+	font-size: 25px;
+}
+#gray2 .img-section,#gray2 .text-section{
+	float: right;
+}
+.text-section > *{
+	width: 90%;
+}
+.article-preview:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.text-section{
+	position: relative;
+	top: 68px;
+	left: 50px;
+	color: white;
+}
+.text-section h2{
+	margin-bottom: 30px;
+}
+.text-section p{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.text-section .sub-heading{
+	font-size: 22px;
+	margin-top: 0;
+}
+.article-preview:nth-child(odd){
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.purple-section .wrapper{
+	color: white;
+	background-color: rgba(83, 82, 150, 0.95);
+}
+.heading-wrapper, .card-group{
+	width: 1080px;
+	margin: 0 auto;
+}
+.heading-wrapper{
+	text-align: center;
+}
+.heading-wrapper h2{
+	padding: 50px 0 0 0;
+	margin-bottom: 0;
+}
+.heading-wrapper p{
+	margin-top: 50px; 
+}
+.card-group>div{
+	width: 50%;
+}
+.clearfix:after{
+	display: block;
+	content: '';
+	clear: both;
+}
+.card{
+	float: left;
+	height: 200px;
+}
+.card-wrapper{
+	width: 80%;
+	margin-top: 40px;
+	margin-left:40px;
+}
+p{
+	font-size: 18px;
+	letter-spacing: 1px;
+	line-height: 1.3em;
+}
+.card-group{
+	margin-top: 40px;
+}
+.card:nth-child(1){
+	background-color: rgba(0, 0, 0, 0.02);
+}
+.card:nth-child(2){
+	background-color: rgba(0, 0, 0, 0.04);
+}
+
+.card:nth-child(3){
+	background-color: rgba(0, 0, 0, 0.06);
+}
+
+.card:nth-child(4){
+	background-color: rgba(0, 0, 0, 0.08);
+}
+
+.card:nth-child(5){
+	background-color: rgba(0, 0, 0, 0.10);
+}
+
+.card:nth-child(6){
+	background-color: rgba(0, 0, 0, 0.12);
+}
+footer .wrapper{
+	background-color: transparent;
+	height: 200px;
+	text-align: center;
+}
+.share-group{
+	margin: 0;
+	padding: 0;
+}
+.share-group li{
+	display: inline-block;
+	padding: 50px 20px;
+}
+.share{
+	width: 1080px;
+	margin: 0 auto;
+}
+.copyright{
+	margin-top: 10px;
+}
+.main-wrapper{
+	background: url(../images/banner.jpg);
+	/*固定图片*/
+	background-attachment: fixed;
+	/*若未铺满则不重复*/
+	background-repeat: no-repeat;
+	/*使图片占据整个页面*/
+	background-size: cover;
+	/*背景居中*/
+	background-position: center center; 
+}
